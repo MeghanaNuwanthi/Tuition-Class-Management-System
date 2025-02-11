@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -21,12 +22,12 @@ public class DashboardActivity extends AppCompatActivity {
         ImageView profileImageView = findViewById(R.id.profileImageView);
         TextView nameTextView = findViewById(R.id.nameTextView);
         TextView roleTextView = findViewById(R.id.roleTextView);
-        Button grade6Button = findViewById(R.id.grade6Button);
-        Button grade7Button = findViewById(R.id.grade7Button);
-        Button grade8Button = findViewById(R.id.grade8Button);
-        Button grade9Button = findViewById(R.id.grade9Button);
-        Button grade10Button = findViewById(R.id.grade10Button);
-        Button grade11Button = findViewById(R.id.grade11Button);
+        LinearLayout grade6Container = findViewById(R.id.g6container);
+        LinearLayout grade7Container = findViewById(R.id.g7container);
+        LinearLayout grade8Container = findViewById(R.id.g8container);
+        LinearLayout grade9Container = findViewById(R.id.g9container);
+        LinearLayout grade10Container = findViewById(R.id.g10container);
+        LinearLayout grade11Container = findViewById(R.id.g11container);
         TextView incomeTextView = findViewById(R.id.incomeTextView);
         Button editDetailsButton = findViewById(R.id.editDetailsButton);
 
@@ -38,7 +39,7 @@ public class DashboardActivity extends AppCompatActivity {
 
 
         // Set click listeners for the grade buttons
-        grade6Button.setOnClickListener(v -> {
+        grade6Container.setOnClickListener(v -> {
             // Handle Grade 6 click (e.g., open a new activity)
             Toast.makeText(this, "Grade 6 clicked", Toast.LENGTH_SHORT).show();
             // Example:
@@ -47,23 +48,23 @@ public class DashboardActivity extends AppCompatActivity {
 
         });
 
-        grade7Button.setOnClickListener(v -> {
+        grade7Container.setOnClickListener(v -> {
             Toast.makeText(this, "Grade 7 clicked", Toast.LENGTH_SHORT).show();
         });
 
-        grade8Button.setOnClickListener(v -> {
+        grade8Container.setOnClickListener(v -> {
             Toast.makeText(this, "Grade 8 clicked", Toast.LENGTH_SHORT).show();
         });
 
-        grade9Button.setOnClickListener(v -> {
+        grade9Container.setOnClickListener(v -> {
             Toast.makeText(this, "Grade 9 clicked", Toast.LENGTH_SHORT).show();
         });
 
-        grade10Button.setOnClickListener(v -> {
+        grade10Container.setOnClickListener(v -> {
             Toast.makeText(this, "Grade 10 clicked", Toast.LENGTH_SHORT).show();
         });
 
-        grade11Button.setOnClickListener(v -> {
+        grade11Container.setOnClickListener(v -> {
             Toast.makeText(this, "Grade 11 clicked", Toast.LENGTH_SHORT).show();
         });
 
