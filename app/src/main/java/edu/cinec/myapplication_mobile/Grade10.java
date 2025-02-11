@@ -5,9 +5,11 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.Spinner;
 
-public class MainActivity extends AppCompatActivity {
+public class Grade10 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // Start Attendance/Payments Activity
-                Intent intent = new Intent(MainActivity.this, AttendancePaymentsActivity.class);
+                Intent intent = new Intent(Grade10.this, AttendancePaymentsActivity.class);
                 startActivity(intent);
             }
         });
@@ -33,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // Start Add Students Activity
-                Intent intent = new Intent(MainActivity.this, AddStudentsActivity.class);
+                Intent intent = new Intent(Grade10.this, AddStudentsActivity.class);
                 startActivity(intent);
             }
         });
@@ -42,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // Start Paid Students Activity
-                Intent intent = new Intent(MainActivity.this, PaidStudentsActivity.class);
+                Intent intent = new Intent(Grade10.this, PaidStudentsActivity.class);
                 startActivity(intent);
             }
         });
@@ -51,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // Start Not Paid Students Activity
-                Intent intent = new Intent(MainActivity.this, NotPaidStudentsActivity.class);
+                Intent intent = new Intent(Grade10.this, NotPaidStudentsActivity.class);
                 startActivity(intent);
             }
         });
@@ -60,9 +62,24 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // Start Free Students Activity
-                Intent intent = new Intent(MainActivity.this, FreeStudentsActivity.class);
+                Intent intent = new Intent(Grade10.this, FreeStudentsActivity.class);
                 startActivity(intent);
             }
         });
+        Spinner monthSpinner = findViewById(R.id.monthSpinner);
+
+        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
+                R.array.months_array, R.layout.spinner_item); // Use spinner_item for selected item
+        adapter.setDropDownViewResource(R.layout.spinner_dropdown_item); // Dropdown items layout
+        monthSpinner.setAdapter(adapter);
+
+        // Set default selection to April (or any other month)
+        String defaultMonth = "April";
+        int position = adapter.getPosition(defaultMonth);
+        if (position != -1) {
+            monthSpinner.setSelection(position);
+        }
+
+        monthSpinner.setPopupBackgroundResource(R.drawable.spinner_background);
     }
 }
