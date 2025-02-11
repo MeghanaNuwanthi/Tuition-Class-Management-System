@@ -32,7 +32,7 @@
             android:layout_width="350dp"
             android:layout_height="120dp"
             android:orientation="vertical"
-            android:background="@drawable/rounded_bg"
+            android:background="@drawable/dispaly_container"
             android:gravity="center"
             android:layout_below="@id/profileImageView"
             android:layout_centerHorizontal="true"
