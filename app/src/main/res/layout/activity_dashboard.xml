@@ -54,6 +54,8 @@
         android:text="Classes"
         android:textColor="@color/gray"
         android:textSize="14sp" />
+
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -64,8 +66,10 @@
         <LinearLayout
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:background="@color/grade6_color"
-            android:id="@+id/g6container">
+            android:background="@drawable/button_square"
+            android:backgroundTint="@color/grade6_color"
+            android:id="@+id/g6container"
+            android:layout_margin="5dp">
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -89,8 +93,9 @@
         <LinearLayout
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:background="@color/grade6_color"
-            android:id="@+id/g6container">
+            android:background="@color/grade7_color"
+            android:id="@+id/g7container"
+            android:layout_margin="5dp">
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -99,14 +104,14 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Grade 6"
+                    android:text="Grade 7"
                     android:textColor="@color/white"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="22"
-                    android:id="@+id/g6count"
+                    android:id="@+id/g7count"
                     android:textColor="@color/white"/>
             </LinearLayout>
         </LinearLayout>
@@ -114,8 +119,9 @@
         <LinearLayout
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:background="@color/grade6_color"
-            android:id="@+id/g6container">
+            android:background="@color/grade8_color"
+            android:id="@+id/g8container"
+            android:layout_margin="5dp">
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -124,14 +130,14 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Grade 6"
+                    android:text="Grade 8"
                     android:textColor="@color/white"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="22"
-                    android:id="@+id/g6count"
+                    android:id="@+id/g8count"
                     android:textColor="@color/white"/>
             </LinearLayout>
         </LinearLayout>
@@ -148,8 +154,9 @@
         <LinearLayout
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:background="@color/grade6_color"
-            android:id="@+id/g6container">
+            android:background="@color/grade9_color"
+            android:id="@+id/g9container"
+            android:layout_margin="5dp">
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -158,14 +165,14 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Grade 6"
+                    android:text="Grade 9"
                     android:textColor="@color/white"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="22"
-                    android:id="@+id/g6count"
+                    android:id="@+id/g9count"
                     android:textColor="@color/white"/>
             </LinearLayout>
         </LinearLayout>
@@ -173,8 +180,9 @@
         <LinearLayout
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:background="@color/grade6_color"
-            android:id="@+id/g6container">
+            android:background="@color/grade10_color"
+            android:id="@+id/g10container"
+            android:layout_margin="5dp">
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -183,14 +191,14 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Grade 6"
+                    android:text="Grade 10"
                     android:textColor="@color/white"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="22"
-                    android:id="@+id/g6count"
+                    android:id="@+id/g10count"
                     android:textColor="@color/white"/>
             </LinearLayout>
         </LinearLayout>
@@ -198,8 +206,9 @@
         <LinearLayout
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:background="@color/grade6_color"
-            android:id="@+id/g6container">
+            android:background="@color/grade11_color"
+            android:id="@+id/g11container"
+            android:layout_margin="5dp">
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -208,14 +217,14 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Grade 6"
+                    android:text="Grade 11"
                     android:textColor="@color/white"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="22"
-                    android:id="@+id/g6count"
+                    android:id="@+id/g11count"
                     android:textColor="@color/white"/>
             </LinearLayout>
         </LinearLayout>
