@@ -21,6 +21,7 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:src="@drawable/profile"
+            android:background="@drawable/circle_bg"
             android:scaleType="centerCrop"
             android:elevation="8dp"
             android:layout_centerHorizontal="true" /> <!-- Moves the image down to overlap -->
