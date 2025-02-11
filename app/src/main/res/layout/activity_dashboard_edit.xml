@@ -44,37 +44,86 @@
                 android:textAlignment="center"/>
         </LinearLayout>
 
-        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-            xmlns:app="http://schemas.android.com/apk/res-auto"
-            xmlns:tools="http://schemas.android.com/tools"
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="horizontal"
+            android:gravity="center"
             android:padding="16dp"
-            tools:context=".MainActivity">
+            android:background="@android:color/white">
 
-            <Spinner
-                android:id="@+id/daySpinner"
+            <!-- Day Selection -->
+            <LinearLayout
+                android:id="@+id/layoutDay"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:entries="@array/days_array"  />
+                android:orientation="horizontal"
+                android:background="@drawable/border_blue"
+                android:padding="8dp"
+                android:gravity="center_horizontal"
+                android:layout_marginEnd="8dp">
 
-            <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/timeSlotRecyclerView"
+                <TextView
+                    android:id="@+id/txtDay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Monday"
+                    android:textSize="16sp"
+                    android:textColor="@android:color/black"
+                    android:paddingEnd="4dp"/>
+
+                <ImageView
+                    android:id="@+id/imgDropdown"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:background="@drawable/circle_bg"
+                    android:src="@android:drawable/ic_menu_more"
+                    app:tint="@android:color/black" />
+            </LinearLayout>
+
+            <!-- Start Time -->
+            <LinearLayout
+                android:id="@+id/layoutStartTime"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp" />
-
-            <TextView
-                android:id="@+id/timeSlotText"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="16sp"
+                android:orientation="horizontal"
+                android:background="@drawable/border_blue"
+                android:padding="8dp"
                 android:gravity="center"
-                android:padding="16dp"
-                android:background="@drawable/time_slot_background"  />
+                android:layout_marginEnd="8dp">
+
+                <TextView
+                    android:id="@+id/txtStartTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2:00 PM"
+                    android:textSize="16sp"
+                    android:textColor="@android:color/black"
+                    android:paddingEnd="4dp"/>
+            </LinearLayout>
+
+            <!-- End Time -->
+            <LinearLayout
+                android:id="@+id/layoutEndTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/border_blue"
+                android:padding="8dp"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/txtEndTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4:00 PM"
+                    android:textSize="16sp"
+                    android:textColor="@android:color/black"
+                    android:paddingEnd="4dp"/>
+            </LinearLayout>
 
         </LinearLayout>
 
-    </LinearLayout>
+        </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

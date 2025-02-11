@@ -13,6 +13,24 @@
         android:theme="@style/Theme.MyApplicationmobile"
         tools:targetApi="31">
         <activity
+            android:name=".FreeStudentsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NotPaidStudentsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PaidStudentsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddStudentsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AttendancePaymentsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Grade10"
+            android:exported="false" />
+        <activity
             android:name=".DashboardActivity"
             android:exported="false" />
         <activity
@@ -27,6 +45,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".DashboardEdit"
+            android:exported="true"/>
     </application>
 
 </manifest>
