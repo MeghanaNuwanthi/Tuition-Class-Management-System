@@ -7,6 +7,7 @@
     <color name="gray">#808080</color>
     <color name="dashboard_background">#fff</color>
     <color name="grade6_color">#FF9800</color>
+    <color name="grade6_light_color">#D5FF9800</color>
     <color name="grade7_color">#4CAF50</color>
     <color name="grade8_color">#F44336</color>
     <color name="grade9_color">#9C27B0</color>
