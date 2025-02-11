@@ -14,7 +14,7 @@ public class Grade10 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_grade10);
 
         Button attendancePaymentsButton = findViewById(R.id.attendancePaymentsButton);
         Button addStudentsButton = findViewById(R.id.addStudentsButton);
