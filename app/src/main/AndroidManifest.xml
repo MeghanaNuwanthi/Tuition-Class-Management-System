@@ -13,22 +13,7 @@
         android:theme="@style/Theme.MyApplicationmobile"
         tools:targetApi="31">
         <activity
-            android:name=".FreeStudentsActivity"
-            android:exported="false" />
-        <activity
-            android:name=".NotPaidStudentsActivity"
-            android:exported="false" />
-        <activity
-            android:name=".PaidStudentsActivity"
-            android:exported="false" />
-        <activity
-            android:name=".AddStudentsActivity"
-            android:exported="false" />
-        <activity
-            android:name=".AttendancePaymentsActivity"
-            android:exported="false" />
-        <activity
-            android:name=".Grade10"
+            android:name=".notices"
             android:exported="false" />
         <activity
             android:name=".DashboardActivity"
