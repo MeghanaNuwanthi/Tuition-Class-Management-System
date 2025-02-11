@@ -6,13 +6,13 @@
     <color name="black">#000000</color>
     <color name="gray">#808080</color>
     <color name="dashboard_background">#fff</color>
-    <color name="grade6_color">#FF9800</color>
-    <color name="grade7_color">#4CAF50</color>
-    <color name="grade8_color">#F44336</color>
-    <color name="grade9_color">#9C27B0</color>
-    <color name="grade10_color">#E91E63</color>
+    <color name="grade6_color">#C4EAD5</color>
+    <color name="grade7_color">#D2E8F8</color>
+    <color name="grade8_color">#EFDDD2</color>
+    <color name="grade9_color">#E7DBF6</color>
+    <color name="grade10_color">#FCCCCC</color>
     <color name="background_tint">#2196F3</color>
-    <color name="grade11_color">#FFEB3B</color>
+    <color name="grade11_color">#F3E8C1</color>
 </resources>
 
 
