@@ -38,7 +38,7 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/grade06fee"
                 android:text="Rs. 1000"
-                android:backgroundTint="@color/grade6_light_color"
+                android:backgroundTint="@color/grade6_color"
                 android:background="@drawable/button_square"
                 android:padding="15px"
                 android:textAlignment="center"/>
