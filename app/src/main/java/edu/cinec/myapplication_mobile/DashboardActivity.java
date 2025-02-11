@@ -8,6 +8,10 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.os.Bundle;
+import android.widget.ArrayAdapter;
+import android.widget.Spinner;
+import androidx.appcompat.app.AppCompatActivity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -71,6 +75,7 @@ public class DashboardActivity extends AppCompatActivity {
         editDetailsButton.setOnClickListener(v -> {
             Toast.makeText(this, "Edit Details clicked", Toast.LENGTH_SHORT).show();
         });
+
 
     }
 }
