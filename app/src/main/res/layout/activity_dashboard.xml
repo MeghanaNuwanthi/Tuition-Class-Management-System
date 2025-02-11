@@ -64,81 +64,89 @@
         android:gravity="center_horizontal">
 
         <LinearLayout
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="111dp"
+            android:layout_height="67dp"
             android:background="@drawable/button_square"
             android:backgroundTint="@color/grade6_color"
             android:id="@+id/g6container"
             android:layout_margin="5dp">
 
             <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_margin="10dp">
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Grade 6"
-                    android:textColor="@color/white"/>
+                    android:textColor="@color/black"/>
 
-                 <TextView
-                     android:layout_width="wrap_content"
-                     android:layout_height="wrap_content"
-                     android:text="22"
-                     android:id="@+id/g6count"
-                     android:textColor="@color/white"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:text="22"
+                    android:id="@+id/g6count"
+                    android:textColor="#31712B"/>
             </LinearLayout>
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:background="@color/grade7_color"
+            android:layout_width="111dp"
+            android:layout_height="67dp"
+            android:background="@drawable/button_square"
+            android:backgroundTint="@color/grade7_color"
             android:id="@+id/g7container"
             android:layout_margin="5dp">
 
             <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_margin="10dp">
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Grade 7"
-                    android:textColor="@color/white"/>
+                    android:textColor="@color/black"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="22"
+                    android:layout_gravity="end"
+                    android:text="35"
                     android:id="@+id/g7count"
-                    android:textColor="@color/white"/>
+                    android:textColor="#0B59A1"/>
             </LinearLayout>
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:background="@color/grade8_color"
+            android:layout_width="111dp"
+            android:layout_height="67dp"
+            android:backgroundTint="@color/grade8_color"
+            android:background="@drawable/button_square"
             android:id="@+id/g8container"
             android:layout_margin="5dp">
 
             <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_margin="10dp">
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Grade 8"
-                    android:textColor="@color/white"/>
+                    android:textColor="@color/black"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="22"
+                    android:layout_gravity="end"
+                    android:text="32"
                     android:id="@+id/g8count"
-                    android:textColor="@color/white"/>
+                    android:textColor="#E46E54"/>
             </LinearLayout>
         </LinearLayout>
 
@@ -152,80 +160,89 @@
         android:gravity="center_horizontal">
 
         <LinearLayout
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:background="@color/grade9_color"
+            android:layout_width="111dp"
+            android:layout_height="67dp"
+            android:backgroundTint="@color/grade9_color"
+            android:background="@drawable/button_square"
             android:id="@+id/g9container"
             android:layout_margin="5dp">
 
             <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_margin="10dp">
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Grade 9"
-                    android:textColor="@color/white"/>
+                    android:textColor="@color/black"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="22"
+                    android:layout_gravity="end"
+                    android:text="27"
                     android:id="@+id/g9count"
-                    android:textColor="@color/white"/>
+                    android:textColor="#7552D9"/>
             </LinearLayout>
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:background="@color/grade10_color"
+            android:layout_width="111dp"
+            android:layout_height="67dp"
+            android:background="@drawable/button_square"
+            android:backgroundTint="@color/grade10_color"
             android:id="@+id/g10container"
             android:layout_margin="5dp">
 
             <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_margin="10dp">
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Grade 10"
-                    android:textColor="@color/white"/>
+                    android:textColor="@color/black"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="22"
+                    android:text="25"
                     android:id="@+id/g10count"
-                    android:textColor="@color/white"/>
+                    android:layout_gravity="end"
+                    android:textColor="#EE3E3E"/>
             </LinearLayout>
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:background="@color/grade11_color"
+            android:layout_width="111dp"
+            android:layout_height="67dp"
+            android:backgroundTint="@color/grade11_color"
+            android:background="@drawable/button_square"
             android:id="@+id/g11container"
             android:layout_margin="5dp">
 
             <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_margin="10dp">
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Grade 11"
-                    android:textColor="@color/white"/>
+                    android:textColor="@color/black"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="22"
+                    android:text="28"
                     android:id="@+id/g11count"
-                    android:textColor="@color/white"/>
+                    android:layout_gravity="end"
+                    android:textColor="#E3A607"/>
             </LinearLayout>
         </LinearLayout>
 
@@ -234,7 +251,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
+        android:orientation="vertical"
         android:layout_marginTop="20dp">
 
         <TextView
@@ -245,13 +262,26 @@
             android:textSize="18sp"
             android:layout_weight="1" />
 
-        <TextView
-            android:id="@+id/incomeTextView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Rs. 4,323,500.00"
-            android:textColor="@color/black"
-            android:textSize="18sp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/dispaly_container"
+            >
+
+            <TextView
+                android:id="@+id/incomeTextView"
+                android:layout_width="match_parent"
+                android:layout_height="92dp"
+                android:text="Rs. 4,323,500.00"
+                android:background="@drawable/button_square"
+                android:gravity="center"
+                android:layout_marginLeft="6dp"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/black"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+
 
     </LinearLayout>
 
